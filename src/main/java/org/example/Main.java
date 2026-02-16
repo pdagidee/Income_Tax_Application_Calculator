@@ -13,9 +13,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double userSalary = sc.nextDouble();
 
-        taxIncomeCalculator.returnUnalteredTaxIncome(userSalary);
-        taxIncomeCalculator.basicRateTax(userSalary);
-        taxIncomeCalculator.higherRateTax(userSalary);
+        taxIncomeCalculator.ReturnTaxAndIncome(userSalary);
 
     }
 }
